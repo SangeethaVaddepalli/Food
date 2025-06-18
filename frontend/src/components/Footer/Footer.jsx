@@ -1,12 +1,13 @@
 import React from 'react'
 import './Footer.css'
+
 import { assets } from '../../assets/frontend_assets/assets'
 const Footer = () => {
   return (
     <div className='footer' id='footer'>
         <div className="footer-content">
             <div className="footer-content-left">
-                <img src={assets.logo} alt="" />
+                <img src={assets.logo} alt="logo" />
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui exercitationem doloremque impedit aspernatur tenetur explicabo ab error architecto fuga inventore?</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt=""  />
