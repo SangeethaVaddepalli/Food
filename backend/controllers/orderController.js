@@ -8,7 +8,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 const currency = "inr";
 const deliveryCharge = 50;
 // const frontend_url = "https://food-del-frontend-y7qa.onrender.com"
-const frontend_url = "https://food-frontend-cjf8.onrender.com"
+// const frontend_url = "https://food-frontend-cjf8.onrender.com"
 
 // placing user order for frontend
 const placeOrder = async (req,res)=>{
