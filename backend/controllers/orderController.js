@@ -12,7 +12,7 @@ const frontend_url = "https://food-frontend-cjf8.onrender.com"
 
 // placing user order for frontend
 const placeOrder = async (req,res)=>{
-    const frontend_url = "http://localhost:5173"
+    const frontend_url = "https://food-frontend-cjf8.onrender.com"
     
 
     try{
