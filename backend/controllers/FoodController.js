@@ -79,7 +79,7 @@ const addFood = async (req, res) => {
       price: req.body.price,
       category: req.body.category,
       image: req.file.path || req.file.secure_url // Cloudinary image URL
-        console.log("Uploaded file:", req.file);
+        
     });
 
     await food.save();
